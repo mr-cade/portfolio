@@ -1,0 +1,42 @@
+* {
+    font-family: 'Sarabun', sans-serif;
+}
+.nav-item {
+    border-right-width: 1px;
+    border-color: lightgray;
+    border-right-style: solid;
+}
+.last-nav {
+    border-style: none;
+}  
+
+/* formatting based on screen size */
+@media screen and (max-width: 980px) {  
+    .nav-item {
+        border-right-width: 1px;
+        border-color: lightgray;
+        border-right-style: solid;
+    }
+    .last-nav {
+        border-style: none;
+    }   
+} 
+
+@media screen and (max-width: 768px) {
+    .nav-item {
+        border-right-width: 1px;
+        border-color: lightgray;
+        border-right-style: solid;
+    }
+    .last-nav {
+        border-style: none;
+    }
+} 
+
+@media screen and (max-width: 640px) {
+    .portpic {
+      max-width: 300px;  
+      height: auto;
+      align-content: center;   
+    }
+}
